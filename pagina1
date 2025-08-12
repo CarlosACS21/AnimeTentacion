@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 1 - Autos</title>
+</head>
+<body>
+    <h1>Autos</h1>
+    <p>Bienvenido a la sección de autos. Aquí encontrarás información sobre automóviles de diferentes marcas y modelos.</p>
+    <a href="index.html">Volver a la página principal</a>
+</body>
+</html>
