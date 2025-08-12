@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 3 - Camiones</title>
+</head>
+<body>
+    <h1>Camiones</h1>
+    <p>Bienvenido a la sección de camiones. Aquí encontrarás información sobre vehículos de carga y transporte pesado.</p>
+    <a href="index.html">Volver a la página principal</a>
+</body>
+</html>
