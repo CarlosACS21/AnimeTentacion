@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2 - Motos</title>
+</head>
+<body>
+    <h1>Motos</h1>
+    <p>Bienvenido a la sección de motos. Descubre los mejores modelos de motocicletas, desde scooters hasta deportivas.</p>
+    <a href="index.html">Volver a la página principal</a>
+</body>
+</html>
