@@ -2,11 +2,232 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Página 3 - Camiones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocachan Animes - Los mejores animes fanservice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chango&family=Comic+Neue:wght@400;700&display=swap');
+        
+        body {
+            background-color: #fff0f5;
+            font-family: 'Comic Neue', cursive;
+            color: #881337;
+        }
+        
+        .comic-title {
+            font-family: 'Chango', cursive;
+            text-shadow: 3px 3px 0px #ff69b4, 5px 5px 0px rgba(0,0,0,0.2);
+            transform: rotate(-3deg);
+        }
+        
+        .comic-box {
+            border: 3px solid #881337;
+            border-radius: 15px;
+            box-shadow: 8px 8px 0px #ff69b4;
+            background-color: #ffe4e9;
+            transition: all 0.3s ease;
+        }
+        
+        .comic-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 12px 12px 0px #ff69b4;
+        }
+        
+        .comic-bubble {
+            background-color: white;
+            border-radius: 20px;
+            border: 2px solid #881337;
+            padding: 10px;
+            position: relative;
+        }
+        
+        .comic-bubble:after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 15px 15px 0;
+            border-color: white transparent;
+            display: block;
+            width: 0;
+            z-index: 1;
+            bottom: -15px;
+            left: 50px;
+        }
+        
+        .comic-bubble:before {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 16px 16px 0;
+            border-color: #881337 transparent;
+            display: block;
+            width: 0;
+            z-index: 0;
+            bottom: -18px;
+            left: 49px;
+        }
+        
+        .anime-card {
+            transform: rotate(-1deg);
+            transition: all 0.3s ease;
+        }
+        
+        .anime-card:hover {
+            transform: rotate(0deg) scale(1.05);
+            z-index: 10;
+        }
+        
+        .tag {
+            background-color: #ff69b4;
+            color: white;
+            transform: rotate(-3deg);
+        }
+    </style>
 </head>
 <body>
-    <h1>Camiones</h1>
-    <p>Bienvenido a la sección de camiones. Aquí encontrarás información sobre vehículos de carga y transporte pesado.</p>
-    <a href="index.html">Volver a la página principal</a>
+    <header class="py-8 bg-gradient-to-r from-pink-500 to-rose-500">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="comic-title text-5xl md:text-7xl text-white mb-4">Bocachan Animes</h1>
+            <div class="comic-bubble inline-block max-w-md mx-auto">
+                <p class="text-xl font-bold">¡Los animes más candentes con el mejor fanservice del mundo!</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold mb-6 text-rose-900 text-center">TOP Animes Fanservice Globales</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Anime 1 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/10d55a66-99cc-4382-aa81-97fcc5b11484.png" alt="High School DxD - Escena de ecchi con Rias Gremory en uniforme escolar rojo con figura voluptuosa, cabello rojo largo, expresión seductora" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">High School DxD</h3>
+                    <p class="mb-2">El rey del fanservice con ángeles y demonios en batallas épicas (y sensuales).</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Ecchi</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Acción</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Harem</span>
+                    </div>
+                </div>
+                
+                <!-- Anime 2 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/287cefd5-e9c5-4cde-8bec-ff9cd14eb18b.png" alt="To Love-Ru - Grupo de chicas anime con varias poses sugerentes, fondos rosados, cuerpos muy curvilíneos y expresiones coquetas" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">To Love-Ru</h3>
+                    <p class="mb-2">Comedia romántica intergaláctica llena de accidentes "afortunados".</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Harem</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Comedia</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Ciencia ficción</span>
+                    </div>
+                </div>
+                
+                <!-- Anime 3 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/720a5d11-711b-48f8-94f2-d7d68a970923.png" alt="Kill la Kill - Ryuko Matoi en traje Senketsu revelador con pose desafiante, espada scissor blade, estilo de animación único" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Kill la Kill</h3>
+                    <p class="mb-2">Trajes que dan poder pero dejan poco a la imaginación.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Acción</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Ecchi</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Sobrenatural</span>
+                    </div>
+                </div>
+                
+                <!-- Anime 4 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8fb473a8-bfca-44b5-ac6f-de6184ec63b8.png" alt="Prison School - Escena de comedia con personajes masculinos en situaciones comprometedoras con chicas del consejo estudiantil con uniformes ajustados" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Prison School</h3>
+                    <p class="mb-2">Comedia adulta que lleva el fanservice al extremo con situaciones hilarantes.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Comedia</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Ecchi</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Maduro</span>
+                    </div>
+                </div>
+                
+                <!-- Anime 5 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e828bfd8-132d-479a-a3b9-bcf6c7e7b657.png" alt="KonoSuba - Grupo de aventureros incluyendo a Darkness con su armadura reveladora y expresión masoquista, estilo de animación colorido" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">KonoSuba</h3>
+                    <p class="mb-2">Aventuras isekai con un grupo disfuncional y mucho fanservice cómico.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Fantasia</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Comedia</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Isekai</span>
+                    </div>
+                </div>
+                
+                <!-- Anime 6 -->
+                <div class="comic-box anime-card p-4">
+                    <div class="overflow-hidden rounded-lg mb-3 h-48">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/72b2b77e-c210-45ca-acbc-6bf5fd389ee2.png" alt="Food Wars - Escena de reacción 'foodgasm' con personaje femenino en éxtasis culinario con ropa rasgada y expresión facial exagerada" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Food Wars!</h3>
+                    <p class="mb-2">Donde las comidas son tan buenas que rompen la ropa... literalmente.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Gastronomía</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Ecchi</span>
+                        <span class="tag px-3 py-1 rounded-full text-sm font-bold">Competición</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="comic-box p-6 max-w-3xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">¿Por qué somos los mejores?</h3>
+            <p class="text-lg mb-4">En Bocachan Animes seleccionamos solo los animes con el fanservice más sublime, los ángulos de cámara más estratégicos y las situaciones más... interesantes. ¡Satisfacción garantizada!</p>
+            <div class="comic-bubble inline-block">
+                <p class="font-bold">¡Nuevos animes añadidos cada semana! ¡Mantente al tanto!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-rose-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <h4 class="text-2xl font-bold mb-4">Bocachan Animes</h4>
+            <p class="mb-4">© 2023 Todos los derechos reservados. Para mayores de 18 años.</p>
+            <p>Hecho con ❤️ para los amantes del fanservice de calidad.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Efecto especial al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animación de entrada de las cartas
+            const cards = document.querySelectorAll('.anime-card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                }, 150 * index);
+            });
+            
+            // Cambiar color del header al hacer scroll
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                const scrollPosition = window.scrollY;
+                
+                if (scrollPosition > 50) {
+                    header.classList.add('bg-pink-600');
+                    header.classList.remove('bg-gradient-to-r');
+                } else {
+                    header.classList.remove('bg-pink-600');
+                    header.classList.add('bg-gradient-to-r', 'from-pink-500', 'to-rose-500');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
+
