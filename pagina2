@@ -2,11 +2,122 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Página 2 - Motos</title>
+    <title>Tienda de Mangas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfdfd;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .manga-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .manga {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .manga img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .manga h3 {
+            font-size: 1.1em;
+            margin: 10px 0 5px;
+        }
+
+        .precio {
+            color: green;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #eee;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Motos</h1>
-    <p>Bienvenido a la sección de motos. Descubre los mejores modelos de motocicletas, desde scooters hasta deportivas.</p>
-    <a href="index.html">Volver a la página principal</a>
-</body>
-</html>
+
+    <header>
+        <h1>Tienda de Mangas</h1>
+        <p>¡Compra tus mangas favoritos al mejor precio!</p>
+    </header>
+
+    <div class="container">
+        <div class="manga-grid">
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/91CzDE+7iQL._AC_UF1000,1000_QL80_.jpg" alt="Naruto Vol. 1">
+                <h3>Naruto Vol. 1</h3>
+                <p class="precio">$120 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81ap+LFemGL._AC_UF1000,1000_QL80_.jpg" alt="One Piece Vol. 1">
+                <h3>One Piece Vol. 1</h3>
+                <p class="precio">$130 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81ZgWlN5GmL._AC_UF1000,1000_QL80_.jpg" alt="Attack on Titan Vol. 1">
+                <h3>Attack on Titan Vol. 1</h3>
+                <p class="precio">$140 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81XkDm8yy8L._AC_UF1000,1000_QL80_.jpg" alt="Death Note Vol. 1">
+                <h3>Death Note Vol. 1</h3>
+                <p class="precio">$125 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81Rsn6F+nhL._AC_UF1000,1000_QL80_.jpg" alt="Demon Slayer Vol. 1">
+                <h3>Demon Slayer Vol. 1</h3>
+                <p class="precio">$135 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81CVL0V5iZL._AC_UF1000,1000_QL80_.jpg" alt="Jujutsu Kaisen Vol. 1">
+                <h3>Jujutsu Kaisen Vol. 1</h3>
+                <p class="precio">$140 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/71Vu4iLeQBL._AC_UF1000,1000_QL80_.jpg" alt="Tokyo Ghoul Vol. 1">
+                <h3>Tokyo Ghoul Vol. 1</h3>
+                <p class="precio">$120 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.com/images/I/81Nj6avN-4L._AC_UF1000,1000_QL80_.jpg" alt="Fullmetal Alchemist Vol. 1">
+                <h3>Fullmetal Alchemist Vol. 1</h3>
+                <p class="precio">$130 MXN</p>
+            </div>
+
+            <div class="manga">
+                <img src="https://m.media-amazon.
