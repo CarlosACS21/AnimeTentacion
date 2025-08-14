@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Top 10 Animes del Año</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      font-family: Arial, sans-serif;
+      padding: 40px 20px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.3s ease;
+      cursor: pointer;
+      color: #444;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-bottom: 1px solid #eee;
+    }
+
+    .content {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .rank {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .desc {
+      font-size: 1rem;
+      line-height: 1.3;
+      color: #555;
+      flex-grow: 1;
+      margin-bottom: 15px;
+    }
+
+    .year {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #999;
+      text-align: right;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .card img {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Top 10 Animes del 2025</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1003/133557.jpg" alt="Chainsaw Man" />
+      <div class="content">
+        <div class="rank">#1</div>
+        <div class="title">Chainsaw Man</div>
+        <div class="desc">Un joven cazador de demonios con una motosierra en el brazo enfrenta peligros inimaginables.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1511/132909.jpg" alt="Mob Psycho 100 III" />
+      <div class="content">
+        <div class="rank">#2</div>
+        <div class="title">Mob Psycho 100 III</div>
+        <div class="desc">El joven psíquico Mob enfrenta sus desafíos más profundos mientras controla sus poderes.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1902/138078.jpg" alt="Jujutsu Kaisen Season 2" />
+      <div class="content">
+        <div class="rank">#3</div>
+        <div class="title">Jujutsu Kaisen S2</div>
+        <div class="desc">Continuación épica con batallas sobrenaturales y hechicería letal.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1231/135961.jpg" alt="Oshi no Ko" />
+      <div class="content">
+        <div class="rank">#4</div>
+        <div class="title">Oshi no Ko</div>
+        <div class="desc">Un drama intenso sobre la industria del entretenimiento y secretos oscuros.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1137/136205.jpg" alt="Spy x Family Part 2" />
+      <div class="content">
+        <div class="rank">#5</div>
+        <div class="title">Spy x Family P2</div>
+        <div class="desc">Más misiones y aventuras de esta peculiar familia de espías.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1525/138369.jpg" alt="Blue Lock" />
+      <div class="content">
+        <div class="rank">#6</div>
+        <div class="title">Blue Lock</div>
+        <div class="desc">Un reto extremo para convertirse en el mejor delantero de fútbol.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1500/139365.jpg" alt="Demon Slayer: Swordsmith Village" />
+      <div class="content">
+        <div class="rank">#7</div>
+        <div class="title">Demon Slayer: Swordsmith Village</div>
+        <div class="desc">Tanjiro y sus amigos enfrentan nuevos enemigos y desafíos.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1371/138865.jpg" alt="Vinland Saga Season 2" />
+      <div class="content">
+        <div class="rank">#8</div>
+        <div class="title">Vinland Saga S2</div>
+        <div class="desc">Continuación de la épica historia vikinga llena de venganza y redención.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1223/138637.jpg" alt="Made in Abyss: The Golden City of the Scorching Sun" />
+      <div class="content">
+        <div class="rank">#9</div>
+        <div class="title">Made in Abyss: Golden City</div>
+        <div class="desc">Una aventura oscura y misteriosa en un abismo peligroso.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.myanimelist.net/images/anime/1137/136205.jpg" alt="Chainsaw Man OVA" />
+      <div class="content">
+        <div class="rank">#10</div>
+        <div class="title">Chainsaw Man OVA</div>
+        <div class="desc">Especial que expande la historia de Chainsaw Man con escenas inéditas.</div>
+        <div class="year">2025</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
